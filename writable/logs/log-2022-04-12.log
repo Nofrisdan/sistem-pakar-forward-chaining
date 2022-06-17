@@ -1,0 +1,167 @@
+CRITICAL - 2022-04-12 03:39:06 --> Call to a member function setFileName() on null
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->dwonload()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#5 {main}
+CRITICAL - 2022-04-12 03:40:39 --> File not found: http://localhost:8080/assets/file/index.html
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(26): CodeIgniter\HTTP\Response->download()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->dwonload()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#9 {main}
+CRITICAL - 2022-04-12 03:41:07 --> File not found: /assets/file/index.html
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(26): CodeIgniter\HTTP\Response->download()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->dwonload()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#9 {main}
+CRITICAL - 2022-04-12 03:42:50 --> File not found: /assets/file/data.txt
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(26): CodeIgniter\HTTP\Response->download()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->dwonload()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#9 {main}
+CRITICAL - 2022-04-12 03:43:48 --> File not found: /assets/file/data.txt
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(774): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(26): CodeIgniter\HTTP\Response->download()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->getFile()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#9 {main}
+CRITICAL - 2022-04-12 09:23:24 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:25 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:26 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:27 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:28 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:29 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-12 09:23:30 --> syntax error, unexpected '}', expecting ']'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+ERROR - 2022-04-12 20:03:19 --> Column 'id_file' in where clause is ambiguous
+CRITICAL - 2022-04-12 20:03:19 --> Column 'id_file' in where clause is ambiguous
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_percobaan.php(38): CodeIgniter\BaseModel->first()
+#7 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(59): App\Models\Tb_percobaan->Cek_file()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Upload()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#13 {main}
+ERROR - 2022-04-12 20:03:52 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-04-12 20:03:52 --> Unknown column 'status' in 'field list'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_percobaan.php(38): CodeIgniter\BaseModel->first()
+#7 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(59): App\Models\Tb_percobaan->Cek_file()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Upload()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#13 {main}
+ERROR - 2022-04-12 20:09:37 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-04-12 20:09:37 --> Unknown column 'status' in 'field list'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_percobaan.php(38): CodeIgniter\BaseModel->first()
+#7 /var/www/html/Codeigniter/dhaniTA/app/Views/Admin/upload/index.php(80): App\Models\Tb_percobaan->Cek_file()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/C...')
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#10 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#11 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(66): view()
+#12 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Upload()
+#13 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#14 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#15 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#16 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#17 {main}
+CRITICAL - 2022-04-12 20:54:21 --> A non-numeric value encountered
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(161): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->transfer_ulang()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}

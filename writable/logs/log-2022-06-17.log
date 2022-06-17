@@ -1,0 +1,15 @@
+ERROR - 2022-06-17 08:29:36 --> Error connecting to the database: Unknown database 'project_dhani_ta'
+CRITICAL - 2022-06-17 08:29:36 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'project_dhani_ta'
+#0 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#2 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/app/Models/Tb_file.php(35): CodeIgniter\BaseModel->first()
+#5 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/app/Controllers/Admin.php(52): App\Models\Tb_file->getFileStatistik()
+#6 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Statistik()
+#7 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 /home/nofrisdan/Documents/PROJEK/dhaniTA/Dhani/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#11 {main}

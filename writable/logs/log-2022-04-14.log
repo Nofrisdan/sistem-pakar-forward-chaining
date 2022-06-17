@@ -1,0 +1,174 @@
+CRITICAL - 2022-04-14 01:31:16 --> Trying to access array offset on value of type null
+#0 /var/www/html/Codeigniter/dhaniTA/app/Views/Admin/statistik/index.php(54): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/C...')
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(51): view()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Statistik()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#10 {main}
+ERROR - 2022-04-14 02:36:16 --> Unknown column 'nama_file' in 'field list'
+CRITICAL - 2022-04-14 02:36:16 --> Unknown column 'nama_file' in 'field list'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(151): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->getHasilStatistika()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+ERROR - 2022-04-14 02:37:16 --> Unknown column 'nama_file' in 'field list'
+CRITICAL - 2022-04-14 02:37:16 --> Unknown column 'nama_file' in 'field list'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(149): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->getHasilStatistika()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+ERROR - 2022-04-14 02:37:20 --> Unknown column 'nama_file' in 'field list'
+CRITICAL - 2022-04-14 02:37:20 --> Unknown column 'nama_file' in 'field list'
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Api.php(149): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Api->getHasilStatistika()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+CRITICAL - 2022-04-14 02:51:03 --> Undefined property: App\Controllers\Admin::$tb_hasil
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(151): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->hapus_file()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-14 12:42:48 --> Undefined index: id_percobaan
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(286): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-14 12:46:28 --> Undefined variable: data
+#0 /var/www/html/Codeigniter/dhaniTA/app/Views/Admin/analisis/index.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/C...')
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(302): view()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#10 {main}
+CRITICAL - 2022-04-14 12:46:59 --> Undefined variable: row
+#0 /var/www/html/Codeigniter/dhaniTA/app/Views/Admin/analisis/index.php(72): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(210): include('/var/www/html/C...')
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(302): view()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#10 {main}
+CRITICAL - 2022-04-14 13:04:56 --> Undefined index: id_file
+#0 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_percobaan.php(57): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(283): App\Models\Tb_percobaan->get_all_id_file()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#7 {main}
+CRITICAL - 2022-04-14 13:17:58 --> Undefined index: waktu
+#0 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_hasil.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(280): App\Models\Tb_hasil->get_all_ip_add()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#7 {main}
+CRITICAL - 2022-04-14 16:53:46 --> Trying to access array offset on value of type null
+#0 /var/www/html/Codeigniter/dhaniTA/app/Models/Tb_hasil.php(51): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(286): App\Models\Tb_hasil->getTime()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#7 {main}
+ERROR - 2022-04-14 17:39:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2022-04-14 17:39:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(305): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+ERROR - 2022-04-14 17:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2022-04-14 17:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(305): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+ERROR - 2022-04-14 17:41:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+CRITICAL - 2022-04-14 17:41:28 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+#0 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/BaseModel.php(584): CodeIgniter\Model->doFindAll()
+#6 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(306): CodeIgniter\BaseModel->findAll()
+#7 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Analisis()
+#8 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#9 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#10 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#12 {main}
+ERROR - 2022-04-14 17:42:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+ERROR - 2022-04-14 17:43:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+ERROR - 2022-04-14 17:43:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+ERROR - 2022-04-14 17:43:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3
+ERROR - 2022-04-14 17:44:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 3

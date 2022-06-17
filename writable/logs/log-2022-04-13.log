@@ -1,0 +1,24 @@
+CRITICAL - 2022-04-13 02:13:58 --> Array to string conversion
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(125): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->hapus_file()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-13 02:18:54 --> Undefined property: App\Controllers\Admin::$tb_hasil
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(140): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->hapus_file()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
+CRITICAL - 2022-04-13 10:04:30 --> Undefined property: App\Controllers\Admin::$db
+#0 /var/www/html/Codeigniter/dhaniTA/app/Controllers/Admin.php(60): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->Upload()
+#2 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /var/www/html/Codeigniter/dhaniTA/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /var/www/html/Codeigniter/dhaniTA/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/var/www/html/C...')
+#6 {main}
