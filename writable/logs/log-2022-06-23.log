@@ -1,0 +1,16 @@
+ERROR - 2022-06-23 00:47:55 --> Duplicate entry 'G01' for key 'PRIMARY'
+CRITICAL - 2022-06-23 00:47:55 --> Duplicate entry 'G01' for key 'PRIMARY'
+#0 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Model.php(625): CodeIgniter\BaseModel->insert()
+#7 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Controllers/Admin.php(199): CodeIgniter\Model->insert()
+#8 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->tambah_gejala()
+#9 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}

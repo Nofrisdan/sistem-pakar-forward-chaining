@@ -1,0 +1,36 @@
+CRITICAL - 2022-06-21 07:57:15 --> Undefined array key "kd_gejala"
+#0 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Views/Page/Pakar.php(121): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Controllers/Admin.php(225): view()
+#5 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->pakar()
+#6 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-21 07:58:41 --> Undefined array key "kd_gejala"
+#0 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Views/Page/Pakar.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Controllers/Admin.php(225): view()
+#5 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->pakar()
+#6 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2022-06-21 07:58:43 --> Undefined array key "kd_gejala"
+#0 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Views/Page/Pakar.php(123): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(210): include('...')
+#2 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/app/Controllers/Admin.php(225): view()
+#5 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(832): App\Controllers\Admin->pakar()
+#6 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/nofrisdan/Documents/PROJEK/Weny-forward-chaining/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
