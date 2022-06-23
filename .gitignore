@@ -1,15 +1,9 @@
 # file system
 .env
-
-# template 
-deskapp
-
 # aplikasi 
 app
-
 # vendor
 vendor
-
 #database
 project_weny_mhs.sql
 
